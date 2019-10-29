@@ -1,11 +1,12 @@
 package as.converter;
 
-import blsoft.com.br.controller.ControllerFornecedor;
-import blsoft.com.br.model.ModelFornecedor;
 import javax.faces.component.UIComponent;
 import javax.faces.context.FacesContext;
 import javax.faces.convert.Converter;
 import javax.faces.convert.FacesConverter;
+
+import as.controller.ControllerFornecedor;
+import as.model.ModelFornecedor;
 
 @FacesConverter("as.converter.converterFornecedor")
 public class ConverterFornecedor implements Converter {

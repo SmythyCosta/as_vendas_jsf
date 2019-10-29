@@ -1,11 +1,12 @@
 package as.converter;
 
-import blsoft.com.br.controller.ControllerFormaPagamento;
-import blsoft.com.br.model.ModelFormaPagamento;
 import javax.faces.component.UIComponent;
 import javax.faces.context.FacesContext;
 import javax.faces.convert.Converter;
 import javax.faces.convert.FacesConverter;
+
+import as.controller.ControllerFormaPagamento;
+import as.model.ModelFormaPagamento;
 
 @FacesConverter("as.converter.converterFormaPagamento")
 public class ConverterFormaPagamento implements Converter {

@@ -1,11 +1,12 @@
 package as.converter;
 
-import blsoft.com.br.controller.ControllerProduto;
-import blsoft.com.br.model.ModelProduto;
 import javax.faces.component.UIComponent;
 import javax.faces.context.FacesContext;
 import javax.faces.convert.Converter;
 import javax.faces.convert.FacesConverter;
+
+import as.controller.ControllerProduto;
+import as.model.ModelProduto;
 
 @FacesConverter("as.converter.converterProduto")
 public class ConverterProduto implements Converter {
